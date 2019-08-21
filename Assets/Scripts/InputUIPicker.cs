@@ -112,7 +112,7 @@ public class InputUIPicker : MonoBehaviour
 
     private void SwitchToKeyMouse()
     {
-#if (UNITY_EDITOR_OSX || UNITY_STANDALONE_OSX || UNITY_IOS )
+#if (UNITY_EDITOR_OSX || UNITY_STANDALONE_OSX || UNITY_IOS)
         SwitchToTestObject(m_macKeyboardMouse);
 #else
         SwitchToTestObject(m_windowsKeyboardMouse);

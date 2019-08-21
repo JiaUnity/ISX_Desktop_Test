@@ -165,8 +165,8 @@ public class PenISX : ControllerDiagramISX
             else
             {
                 input.name = inputName;
-                FirstTimeUse(input);                
-            }                
+                FirstTimeUse(input);
+            }
         }
         return input;
     }

@@ -49,14 +49,14 @@ public class TouchISX : MonoBehaviour
                 if (touch.isInProgress)
                 {
                     string touchInfo = touch.touchId.ReadValue() + "\n"
-                                     + touch.phase.ReadValue().ToString() + "\n"
-                                     + touch.position.ReadValue().ToString() + "\n"
-                                     + touch.pressure.ReadValue().ToString() + "\n"
-                                     + touch.radius.ReadValue().ToString() + "\n"
-                                     + touch.delta.ReadValue().ToString();                    
+                        + touch.phase.ReadValue().ToString() + "\n"
+                        + touch.position.ReadValue().ToString() + "\n"
+                        + touch.pressure.ReadValue().ToString() + "\n"
+                        + touch.radius.ReadValue().ToString() + "\n"
+                        + touch.delta.ReadValue().ToString();
                     m_touchInfo.AddNewInputInfo(touchInfo, j);
                     j++;
-                }                
+                }
             }
             m_touchInfo.MaxISXCount = j;
         }

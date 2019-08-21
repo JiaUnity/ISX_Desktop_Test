@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class Save : MonoBehaviour
 {
@@ -16,6 +16,6 @@ public class Save : MonoBehaviour
         {
             DontDestroyOnLoad(gameObject);
             _instance = this;
-        }        
+        }
     }
 }
